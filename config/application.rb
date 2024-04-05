@@ -10,6 +10,8 @@ module TechlogApp
 
     config.autoload_lib(ignore: %w(assets tasks))
 
+    config.i18n.default_locale = :ja
+
     config.generators do |g|
       g.assets false
       g.helper false
